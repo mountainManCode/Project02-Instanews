@@ -9,7 +9,7 @@
       });
       
       $('.gallery').children().remove();
-      $('.gallery').append('<img class="loader" src="images/ajax-loader.gif"/>')
+      $('.gallery').append('<img class="loader" src="../assets/images/ajax-loader.gif"/>')
      
       
       if (section !== 'section'){
