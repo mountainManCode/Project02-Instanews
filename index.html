@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instanews</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="selectric.css">
+  <link rel="stylesheet" href="build/css/style.min.css">
+  </head>
+
+  <body>
+    <h1 class="hidden">Instanews: Get the top headlines from the New York Times</h1>
+      <header class="no-selection">
+        <img class="logo" src="assets/images/nyt-logo.svg" alt="New York Times Logo">
+        <div class="container-select">
+          <h2 class="selectionheader">Choose a section:</h2>
+          <form action="submit">
+            <select name="sections" id="select-section">
+              <option value="section">Section</option>
+              <option value="home">Home</option>
+              <option value="national">National</option>
+              <option value="politics">Politics</option>
+              <option value="upshot">Upshot</option>
+              <option value="sports">Sports</option>
+              <option value="health">Health</option>
+              <option value="opinion">Opinion</option>
+              <option value="world">World</option>
+              <option value="business">Business</option>
+              <option value="technology">Technology</option>
+              <option value="science">Science</option>
+            </select>
+          </form>
+        </div>
+      </header>
+    <section class="gallery-container">
+      <ul class="gallery">
+      </ul>
+    </section>
+    <footer>&copy; Copyright 2016 <span class="capitalize">Instanews</span></footer>
+    <script src="build/js/scripts.min.js"></script>
+  </body>
+</html>
